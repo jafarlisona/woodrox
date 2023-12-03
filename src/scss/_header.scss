@@ -1,0 +1,35 @@
+.header {
+    height: 430px;
+    background: url('https://preview.colorlib.com/theme/woodrox/img/banner/banner.jpg.webp') no-repeat scroll center center;
+
+    .header-filter {
+        background-color: rgba(0, 0, 0, 0.51);
+        height: 430px;
+
+        .header-content {
+            display: grid;
+            place-content: center;
+            height: 280px;
+
+            h1 {
+                font-size: 48px;
+                font-weight: 700;
+                font-family: 'Heebo', sans-serif;
+                line-height: 58px;
+                text-align: center;
+                color: #fff;
+            }
+
+            .links-header {
+                .link-header {
+                    font-size: 14px;
+                    color: #fff;
+
+                    i {
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
+}

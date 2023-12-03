@@ -1,0 +1,95 @@
+.header-home {
+    background-image: url("https://preview.colorlib.com/theme/woodrox/img/banner/home-banner.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 965px;
+
+    .header-home-content {
+        margin-top: 130px;
+        display: flex;
+        max-width: 1140px;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-home-content-text {
+            max-width: 525px;
+            min-height: 250px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            h1 {
+                font-family: 'Heebo', sans-serif;
+                font-size: 36px;
+                line-height: 47px;
+                color: #fff;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+                color: #fff;
+            }
+
+            button {
+                margin: 0;
+                width: 150px;
+                height: 50px;
+                border-radius: 3px;
+                background-color: #faba00;
+                border: none;
+                transition: all 0.5s;
+
+                a {
+                    color: #fff;
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+
+                &:hover {
+                    color: #faba00;
+                    border: 1px solid #faba00;
+                    background-color: transparent;
+
+                }
+
+                &:hover a {
+                    color: #faba00;
+                }
+            }
+        }
+
+        .header-home-content-icons {
+            margin: 0;
+            border-radius: 20px;
+            width: 360px;
+            height: 542px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        .header-home-content-icon {
+            width: 150px;
+            text-align: center;
+            height: 160px;
+            transition: all 300ms linear 0s;
+            padding-top: 60px;
+
+            i {
+                font-size: 40px;
+                color: #fff;
+                display: block;
+            }
+
+            &:hover {
+                background-color: #faba00;
+            }
+        }
+    }
+}
