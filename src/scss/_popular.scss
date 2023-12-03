@@ -1,0 +1,65 @@
+#popular {
+    height: 740px;
+    width: 100%;
+    background-color: #F9F9FF;
+    padding: 120px 0;
+    .popular-container {
+        max-width: 1170px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h1 {
+            font-family: 'Heebo', sans-serif;
+            font-size: 36px;
+            line-height: 44px;
+            color: #222;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 14px;
+            line-height: 24px;
+            color: #777;
+            max-width: 740px;
+        }
+
+        .popular-cards {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 50px auto 0;
+            .popular-card {
+                max-width: 390px;
+                min-height: 347px;
+                padding: 0 15px;
+
+                &:hover span {
+                    transition: all 500ms;
+                    color: #faba00;
+                }
+
+                img {
+                    max-width: 360px;
+                    height: 211px;
+                    border-radius: 5px;
+                }
+
+                span {
+                    font-family: 'Heebo', sans-serif;
+                    font-size: 18px;
+                    line-height: 36px;
+                    color: #222;
+                    font-weight: 700;
+                }
+
+                p {
+                    text-align: left;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #777;
+                }
+            }
+        }
+    }
+}
